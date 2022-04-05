@@ -16,7 +16,7 @@ function errorLength (input) {
 function errorName (input) {
 
         error.style.color = 'red'
-        error.innerText = 'Name user не может содеражать цифры'
+        error.innerText = 'Name user может содержать только цифры'
         error.id = 'error'
         input.parentNode.appendChild(error)
 }
