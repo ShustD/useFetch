@@ -16,14 +16,14 @@ function errorLength (input) {
 function errorName (input) {
 
         error.style.color = 'red'
-        error.innerText = 'Name user может содержать только цифры'
+        error.innerText = 'Name user может содержать только цифры!'
         error.id = 'error'
         input.parentNode.appendChild(error)
 }
 function errorPhone (input) {
 
     error.style.color = 'red'
-    error.innerText = 'Phone может содержать только цифры'
+    error.innerText = 'Phone может содержать только цифры!'
     error.id = 'error'
     input.parentNode.appendChild(error)
 }
